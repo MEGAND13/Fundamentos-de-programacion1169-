@@ -31,23 +31,34 @@ int main()
         cout << "Indica tu peso";
         cin >> peso;
         IMC = peso / pow(estatura, 2);
-        cout << "Indica tu peso ";
         cout << "Tu IMC es " << IMC;
-        if (IMC <= 18.5) {
-            cout << "Usted se encuentra en rango de peso insuficiente";
+        if (sexo == 'f' && IMC < 19) {
+            cout<< "\nUsted se encuentra en un rango de peso insuficiente\n";
         }
-        if (IMC >= 18.5 && IMC < 25) {
-            cout << "Usted se encuentra en rango de peso saludable";
+        if (sexo == 'f' && IMC >= 19 && IMC < 25) {
+            cout << "\nUsted se encuentra en un rango de peso saludable\n";
         }
-        if (IMC >= 25 && IMC < 30) {
-            cout << "Usted tiene sobre peso";
+        if (sexo == 'f' && IMC >= 25 && IMC < 28) {
+            cout << "\n  Usted se encuentra en un rango de ligero sobrepeso\n";
         }
-        if (IMC >= 30) {
-            cout << "Usted se encuentra dentro del rango de obesidad";
+        if (sexo == 'f' && IMC >= 28) {
+           cout << "\nUsted se encuentra en un rango de obesidad severa\n";
+        }
+        if (sexo == 'm' && IMC < 19) {
+            cout << "\nUsted se encuentra en un rango de peso insuficiente\n";
+        }
+        if (sexo == 'm' && IMC >= 19 && IMC < 25) {
+            cout << "\nUsted se encuentra en un rango de peso saludable\n";
+        }
+        if (sexo == 'm' && IMC >= 25 && IMC < 29) {
+            cout << "\n  Usted se encuentra en un rango de ligero sobrepeso\n";
+        }
+        if (sexo == 'm' && IMC >= 29) {
+            cout << "\nUsted se encuentra en un rango de obesidad severa";
         }
         else {
             cita = "no";
-            cout << "Ten un buen dia ";
+            cout << "\nTen un buen dia ";
         }
 
 
