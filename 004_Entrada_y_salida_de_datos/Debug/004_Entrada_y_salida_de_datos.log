@@ -1,2 +1,3 @@
 ﻿  004_Entrada_y_salida_de_datos.cpp
-  004_Entrada_y_salida_de_datos.vcxproj -> C:\Users\andy\Downloads\004_Entrada_y_salida_de_datos\Debug\004_Entrada_y_salida_de_datos.exe
+C:\Users\andy\Desktop\PRACTICAS PROGRAMACIÓN\004_Entrada_y_salida_de_datos\004_Entrada_y_salida_de_datos.cpp(33,20): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+  004_Entrada_y_salida_de_datos.vcxproj -> C:\Users\andy\Desktop\PRACTICAS PROGRAMACIÓN\004_Entrada_y_salida_de_datos\Debug\004_Entrada_y_salida_de_datos.exe
