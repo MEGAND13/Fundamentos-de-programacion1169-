@@ -1,0 +1,4 @@
+﻿  001_Hola_Mundo.cpp
+C:\Users\andy\Downloads\001_Hola_Mundo\001_Hola_Mundo\001_Hola_Mundo.cpp(59,14): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\andy\Downloads\001_Hola_Mundo\001_Hola_Mundo\001_Hola_Mundo.cpp(66,16): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+  001_Hola_Mundo.vcxproj -> C:\Users\andy\Downloads\001_Hola_Mundo\Debug\001_Hola_Mundo.exe
